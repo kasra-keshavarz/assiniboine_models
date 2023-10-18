@@ -2,7 +2,7 @@
 
 Progress: 100%  [xxxxxxxxxxxxxxxxxxxxx]
 
-Start date: October 17th, 2023
+Start date: October 17th, 2023 </b>
 End date: October 18th, 2023
 
 
