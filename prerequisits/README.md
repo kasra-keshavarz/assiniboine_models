@@ -54,11 +54,11 @@ foo@bar:~$ module load libfabric/1.10.1 ipykernel/2023a \
 It is recommended to save all load modules as a list to be able to restore
 them whenever needed. Using the LMOD features, you may save them with:
 ```console
-foo@bar:~$ module save fhimp-mods 
+foo@bar:~$ module save example-arb-mods 
 ```
 And you may restore the list with:
 ```console
-foo@bar:~$ module restore fhimp-mods
+foo@bar:~$ module restore example-arb-mods
 ```
 Please note that some of the libraries and binary programs are necessary
 for the Python environment to run smoothly.
@@ -76,7 +76,7 @@ to create a virtual environment using the file mentioned above.
 In brief, you can create a Python virtual environment (after assuring all
 the modules are loaded) with:
 ```console
-foo@bar:~$ module restore fhimp-mods
+foo@bar:~$ module restore example-arb-mods
 foo@bar:~$ virtualenv /path/to/virtualenv/your-virtual-env
 ```
 
